@@ -1,0 +1,10 @@
+
+=== Wed Mar 29 18:37:26 2023
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.render-pipelines.universal@7.3.1
+  com.unity.shadergraph@7.3.1
