@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
 
     public bool Die()
     {
-        // Уничтожаем объект врага
+       
         Destroy(gameObject);
         return true;
     }

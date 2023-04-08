@@ -6,12 +6,12 @@ public class UseItemAction : PlayerAction
 {
     public override void Execute(GameObject playerObject)
     {
-        // Получить компонент IInventoryService установленный на объекте Player
+       
         IInventoryService inventoryService = playerObject.GetComponent<IInventoryService>();
 
         if (inventoryService != null)
         {
-            // Попытаться подобрать ближайший предмет
+       
             Item item = inventoryService.PickUpNearestItem(playerObject.transform.position);
             if (item != null)
             {

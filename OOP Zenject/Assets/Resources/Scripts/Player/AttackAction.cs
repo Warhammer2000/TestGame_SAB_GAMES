@@ -22,10 +22,10 @@ public class AttackAction : PlayerAction
         
         if (EnemyService.nearestEnemy != null)
         {
-            // Атаковать врага
+           
             Enemy.instance.TakeDamage(10);
             Debug.Log("NearestEnemy != null");
-            // Воспроизвести звук удара меча
+           
             source.PlayOneShot(playerSwordSound);
             //SoundManager.PlaySwordSound();
 
